@@ -96,11 +96,11 @@ print fact(x)
 - **Using Lambda Function**
 
   ```python
-  # Solution by:  harshraj22
+  # Solution by:  suraj7879
 
   n = int(input())
-  def shortFact(x): return 1 if x <= 1 else x*shortFact(x-1)
-  print(shortFact(n))
+  fact =  lambda x:1 if x==0 else x*fact(x-1)
+  print(fact(n))
 
   ```
 ---
